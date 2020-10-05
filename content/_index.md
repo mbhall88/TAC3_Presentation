@@ -1,24 +1,20 @@
 +++
-title = "My presentation"
 outputs = ["Reveal"]
 +++
 
-# Hello world!
+## Examining bacterial variation with genome graphs
 
-This is my first slide.
 
----
+Michael B. Hall
 
-# Hello Mars!
-
-This is my second slide
+**Third-Year Thesis Advisory Committee Meeting**
 
 ---
 
-## Cool equations
+# Presentation Overview
 
-Displayed equations are wrapped in double-\$
-
-$$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$  
-
-Inline equations like $E=mc^2$ are wrapped in single-\$
+1. What have I been doing for the last 12 months?
+1. Executive Summary
+2. Progress Report
+3. Publication Strategy
+4. Training and Development

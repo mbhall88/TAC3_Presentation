@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-gb"
-title = "My New Hugo Site"
+title = "Third-Year TAC Presentation"
 theme = "reveal-hugo"
 
 [markup.goldmark.renderer]
