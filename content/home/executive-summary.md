@@ -33,6 +33,4 @@ weight = 20
 
 - Not started
 
-
-
 {{% /section %}}
