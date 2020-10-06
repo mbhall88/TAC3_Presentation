@@ -13,17 +13,25 @@ weight = 20
 
 ---
 
-# Aims of this PhD
+## Progress - Chapter 1
 
-1.  Develop algorithms and software for variant discovery using bacterial genome graphs,
-    building on work of a previous student in the lab.
-2.  Benchmark Nanopore versus Illumina SNP calling and show our
-    algorithms meet the needs of clinical and public health users.
-3.  Improve upon current whole-genome sequencing-based drug resistance
-    prediction for *M. tuberculosis* using genome graphs.
-4.  Curate a high-quality reference pan-genome for *M. tuberculosis*
-    that includes a detailed map of the *pe/ppe* genes.
+- Content is complete
+- Paper covering work (second-author) near submission
+- All that's left is to write the thesis chapter
 
+---
+
+## Progress - Chapters 2 & 3
+
+- Major publication for thesis - aim to submit end of Q1 2021
+- Chapter 2 complete by end of 2020 - analysis near complete
+- Chapter 3 complete in Q1 2021 - “start-up” work and method refinement complete
+
+---
+
+## Progress - Chapter 4
+
+- Not started
 
 
 
