@@ -70,6 +70,8 @@ Same isolate DNA extraction sequenced on both Illumina and Nanopore
 -   83 samples from South Africa
 -   20 samples from Birmingham
 
+**150 samples after QC** (7 PacBio)
+
 ---
 
 ## What have I done?
@@ -103,32 +105,31 @@ Baseline Illumina/Nanopore concordance, using PacBio as a validation (where we h
 
 ## Baseline concordance
 
-Call rate: what % of true ALTs does `bcftools` make a REF/ALT call - anything except NULL and FILTER  
+Call rate: what % of true ALTs does `bcftools` make a REF/ALT call
 
-Concordance: what % of true ALTs does `bcftools` genotype agree with truth (excludes NULL, FILTER, and HET)
+Concordance: what % of true ALTs does `bcftools` genotype agree with truth
 
 ---
 
-## Baseline concordance
+### Baseline concordance
 
 <img src="images/alt_concordance.png"  height="550" width="1100" style="border: none;">
 
 ---
 
-## Baseline distance
+### Baseline distance
 
 <img src="images/dotplot.png"  height="550" width="1100" style="border: none;">
 
 ---
 
-## Baseline distance
+### Baseline distance
 
 <img src="images/close_dotplot.png"  height="550" width="1100" style="border: none;">
 
 ---
 
 ### `pandora` Variant Calling
-<!-- TODO -->
 
 **Using two PRGs of varying complexity:**
 
@@ -141,10 +142,9 @@ Concordance: what % of true ALTs does `bcftools` genotype agree with truth (excl
 
 ### Clustering
 
--   Calculate pairwise SNP distance from truth-set
--   Calculate pairwise SNP distance from `pandora` with "best" PRG
--   Main figure will be dot plot of the two distance matrices - hoping for linear relationship
+-   Use distance matrices and linear equation to define Nanopore SNP threshold
+-   Cluster based on this threshold and see how concordant with Illumina
+-   Does multi-sample analysis improve clustering?
 
----
 
 {{% /section %}}
