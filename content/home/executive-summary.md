@@ -5,11 +5,10 @@ weight = 20
 
 # Presentation Overview
 
-1.  What have I been doing for the last 12 months?
-2.  **Executive Summary**
-2. Progress Report
-3. Publication Strategy
-4. Training and Development
+1. What have I been doing for the last 12 months?
+2. **Executive Summary**
+3. Progress Report
+4. Discussion
 
 ---
 

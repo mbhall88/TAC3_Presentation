@@ -58,9 +58,7 @@ The ability to accurately map sequencing reads to these genes would likely impro
 
 ## Analysis
 
-Re-analyse data from Chapter 2 and see if we are better able to cluster samples with this new pan-genome with *pe/ppe* map 
-
-
+Re-analyse data from Chapter 2 and see if we are better able to cluster samples with this new pan-genome with *pe/ppe* map
 
 Assess variation in *pe/ppe* genes across 10,000 samples from CRyPTIC
 
