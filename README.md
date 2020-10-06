@@ -4,7 +4,7 @@ This repository contains the slide deck for my third-year thesis advisory commit
 
 A live version of these slides can be found at <https://tac3.netlify.app>
 
-The associated report can be found at <https://mbh.sh/TAC3_Report>
+The associated report can be found at <https://mbh.sh/TAC3_Report> and the repository for that report is <https://github.com/mbhall88/TAC3_Report>
 
 ---
 
