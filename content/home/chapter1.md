@@ -23,7 +23,7 @@ Develop algorithms and software for variant discovery using bacterial genome gra
 
 ---
 
-# Pan-genome
+### Pan-genome
 
 Bacterial genomes are incredibly diverse.
 
@@ -33,13 +33,13 @@ In an "open" pan-genome, such as *Salmonella enterica*, two individuals could sh
 
 ---
 
-## The single-reference problem
+### The single-reference problem
 
 <img src="images/single-ref.png"  height="550" width="550" style="border: none;">
 
 ---
 
-## Genome graphs
+### Genome graphs
 
 -   Uses a population reference graph (PRG) instead of a single, linear reference
 -   PRG represents variation seen within a population
@@ -49,7 +49,7 @@ In an "open" pan-genome, such as *Salmonella enterica*, two individuals could sh
 
 ---
 
-## Nanopore sequencing
+### Nanopore sequencing
 
 <img src="images/nanopore.png"  height="400" width="600" style="border: none;">
 
@@ -66,7 +66,7 @@ benchmark has been completed (for Mtb)
 
 ---
 
-## `pandora map`
+### `pandora map`
 
 Infer consensus sequence for a *single* sample and genotype with respect to this consensus sequence
 
@@ -74,7 +74,7 @@ Infer consensus sequence for a *single* sample and genotype with respect to this
 
 ---
 
-## `pandora compare`
+### `pandora compare`
 
 Infer consensus sequence for a *collection* of samples and genotype with respect to this consensus sequence
 
@@ -84,7 +84,7 @@ Infer consensus sequence for a *collection* of samples and genotype with respect
 
 ## Limitation
 
-`Pandora` can only genotype based on variation within the graph
+`pandora` can only genotype based on variation within the graph
 
 ---
 
@@ -96,7 +96,7 @@ into the `pandora` workflow.
 
 ---
 
-## What have I done?
+### What have I done?
 
 
 {{% fragment %}}Implement *de novo* variant discovery module within `pandora` (~1325/~3500 lines of source/test code){{% /fragment %}}
@@ -109,13 +109,13 @@ into the `pandora` workflow.
 
 ---
 
-### Step 1: Finding candidate regions
+#### Step 1: Finding candidate regions
 
 <img src="images/find-candidate.png"  height="500" width="1000" style="border: none;">
 
 ---
 
-### Step 2: Enumerating paths through candidate regions
+#### Step 2: Enumerating paths through candidate regions
 
 <img src="images/pandora-denovo.png"  height="520" width="1000" style="border: none;">
 
@@ -151,25 +151,25 @@ Difficulty in evaluating is "truth"
 
 ---
 
-## Effect of basecalling model
+### Effect of basecalling model
 
 <img src="images/basecall_model.png"  height="550" width="1100" style="border: none;">
 
 ---
 
-## Precision
+### Precision
 
 <img src="images/precision.png"  height="550" width="1100" style="border: none;">
 
 ---
 
-## Recall
+### Recall
 
 <img src="images/recall.png"  height="550" width="1100" style="border: none;">
 
 ---
 
-## Outstanding work
+### Outstanding work
 
 -   Release preprint and submit paper (this month 🤞)
 -   Direct integration of *de novo* variants back into PRG
