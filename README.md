@@ -1,3 +1,13 @@
+![Netlify](https://img.shields.io/netlify/6bd326bb-b415-4130-b38d-c2d09f5528b9)
+
+This repository contains the slide deck for my third-year thesis advisory committee meeting presentation.
+
+A live version of these slides can be found at <https://tac3.netlify.app>
+
+The associated report can be found at <https://mbh.sh/TAC3_Report>
+
+---
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
