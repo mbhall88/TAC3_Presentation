@@ -129,6 +129,12 @@ Concordance: what % of true ALTs does `bcftools` genotype agree with truth
 
 ---
 
+### Validation
+
+<img src="images/baseline_truth.png" height="450"  style="border: none;">
+
+---
+
 ### `pandora` Variant Calling
 
 **Using two PRGs of varying complexity:**

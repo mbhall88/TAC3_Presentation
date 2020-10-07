@@ -9,6 +9,9 @@ Michael B. Hall
 
 **Third-Year Thesis Advisory Committee Meeting**
 
+Presentation: https://github.com/mbhall88/TAC3_Presentation  
+Report: https://github.com/mbhall88/TAC3_Report
+
 ---
 
 # Presentation Overview

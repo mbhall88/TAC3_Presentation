@@ -17,7 +17,7 @@ Improve upon current whole-genome sequencing-based drug resistance prediction fo
 ## Tuberculosis
 
 -   WGS-based diagnostics offer faster solution
--   Two-week "liquid culture" gives similar results
+-   Two-week "liquid culture" gives similar results to "gold-standard"
 -   For the four first-line drugs, a study by the CRyPTIC consortium demonstrate that DST is not required if genotype predicts susceptibility
 
 ---
