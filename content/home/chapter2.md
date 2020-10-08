@@ -14,20 +14,12 @@ Benchmark Nanopore versus Illumina SNP calling and show our algorithms meet the 
 
 ---
 
-## Tuberculosis
-
--   \#1 cause of death by a single pathogen
--   Standard of care requires phenotypic testing (DST) of the infecting organism - *Mycobacterium tuberculosis* - against the four first-line drugs
--   *M. tuberculosis* is slow-growing - gold-standard DST takes ~2 months
-
----
-
 ## TB and Public Health
 
--   Public health requirements for TB diagnostics are resistance prediction, species identification, and clustering of genomes.
+-   \#1 cause of death by a single pathogen
+-   Public health requirements for TB diagnostics are resistance prediction, species identification, and **clustering of genomes**.
 -   Requirements currently met with Illumina
 -   Reasons to consider switching to Nanopore: cost, location of burden, speed
--   Patient to result in 12.5 hours (2017) with Nanopore - and yield has improved since then
 
 ---
 
@@ -37,14 +29,6 @@ The first step towards clustering a set of genomes is determining a distance mat
 
 -   ~~Feeding aligned genomes into a phylogenetic tree-building tool~~
 -   Counting SNP differences and clustering based on these
-
----
-
-## Genetic clustering
-
-We define genetic distance to be the sum of genetic discordances, where missing data
-and heterozygosity do not cause discordance (unless the zygosity does not include the
-reference allele) and study the clustering this definition generates.
 
 ---
 
@@ -85,12 +69,6 @@ Same isolate DNA extraction sequenced on both Illumina and Nanopore
 
 ---
 
-## What's left to do?
-
-- Finish `pandora` variant calling and compare with other callers
-- Clustering of samples
-
----
 
 ## Baseline variant analysis
 
@@ -135,14 +113,20 @@ Concordance: what % of true ALTs does `bcftools` genotype agree with truth
 
 ---
 
+## What's left to do?
+
+- Finish `pandora` variant calling and compare with other callers
+- Clustering of samples
+
+---
+
 ### `pandora` Variant Calling
 
 **Using two PRGs of varying complexity:**
 
 -   Call SNPs and indels with `pandora`
--   Compare to baseline calls
--   Report concordance rate
 -   How does complexity of PRG affect concordance and computational cost
+-   Reproduce same analysis from baseline
 
 ---
 

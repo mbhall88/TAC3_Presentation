@@ -124,12 +124,6 @@ into the `pandora` workflow.
 
 ---
 
-### Assessing variants
-
-<img src="images/evaluation.png"  height="520" width="1000" style="border: none;">
-
----
-
 ## Empirical data
 
 -   The main focus of both `pandora` and *de novo* evaluation
@@ -139,13 +133,19 @@ into the `pandora` workflow.
 
 ---
 
+### Assessing variants
+
+<img src="images/evaluation.png"  height="520" width="1000" style="border: none;">
+
+---
+
 ## Empirical data
 
 Difficulty in evaluating is "truth"
 
 -   Align each pair of genomes to get differences
 -   Construct truth panel from these differences
--   Map truth panel to a panel of probes from `pandora` VCF
+-   Augment reference with variants and map variant probes
 -   Calculate recall and precision for all pairs
 
 ---
