@@ -136,5 +136,16 @@ Concordance: what % of true ALTs does `bcftools` genotype agree with truth
 -   Cluster based on this threshold and see how concordant with Illumina
 -   Does multi-sample analysis improve clustering?
 
+---
+
+### Bonus: Basecaller training
+
+<img src="images/basecall_training.png" height="550"  style="border: none;">
+
+---
+
+### Bonus: Basecaller training
+
+<img src="images/basecall_errors.png" height="550"  style="border: none;">
 
 {{% /section %}}
